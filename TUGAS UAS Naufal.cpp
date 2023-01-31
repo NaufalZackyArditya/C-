@@ -14,8 +14,15 @@ using namespace std;
                             "3. Jelly \t\t",
                             "4. Oreo \t\t"};
         string harga2[4] = {"3000","5000","2000","2000"};
+   void judul(){
+     cout << "             SELAMAT DATANG                  \n ";
+        cout << "               DI BOBANA                     \n ";
+        cout << endl;
+          cout << "============================================\n";
+          cout << "            MENU MINUMAN BOBA               \n";
+          cout << "============================================\n";
 
-
+   }
    void pesan(){
        cout << "MENU RASA  :\n";
       for (int a=0; a<7; a++){
@@ -102,19 +109,12 @@ cout << endl;
 
       int main (){
 
-        cout << "             SELAMAT DATANG                  \n ";
-        cout << "               DI BOBANA                     \n ";
-        cout << endl;
-          cout << "============================================\n";
-          cout << "            MENU MINUMAN BOBA               \n";
-          cout << "============================================\n";
-
-
 
    char ulang;
 
   do {
         system ("cls");
+    judul();
     pesan();
     daftar();
     cout << endl;
